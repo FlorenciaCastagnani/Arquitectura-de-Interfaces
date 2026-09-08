@@ -1,0 +1,419 @@
+html {
+    background-color: #ffffff;
+    scroll-behavior: smooth;
+}
+
+html, body{
+    min-height: 100vh;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    padding-top: 1px;
+    position: relative;
+
+    background-image: url(./img/fondo2.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    
+    
+
+}
+
+
+
+/* =========== 
+   TIPOGRAFÍAS 
+   =========== */
+
+h1 {
+    font-family: "Mochiy Pop One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    text-align: left;
+}
+
+h2 {
+    font-family: "Mochiy Pop One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Mochiy Pop One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+p, ul, li {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    
+}
+
+ul {
+    text-align: center;
+}
+
+
+h1, h2, h3, h4, p{
+    margin: 0;
+    color: #7D171D;
+}
+
+.resaltado {
+    color: #FA5F7D;
+    font-weight: 500;
+}
+
+.resaltado2{ 
+    color: #99C05B;
+    font-weight: 500;
+}
+
+
+/**
+=============================
+       CONTENEDOR
+=============================
+**/
+
+.contenedor {
+  position: relative;
+  max-width: 1100px;
+  margin: 60px auto;
+  border-radius: 10px;
+
+  overflow: visible;       
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  background-color: #fff; 
+
+  border: 8px solid #FEC6D1;
+  box-shadow: 8px 8px 4px #CDA9B0;
+
+  
+
+
+}
+
+
+
+
+/* =================
+    Perfil BOTONES
+   ================= */
+
+
+.perfil nav ul {
+    display: flex;
+    gap: 120px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    justify-content: center;
+    width: 100%;
+}
+
+.perfil nav li {
+    margin-left: 0;
+}
+
+
+.perfil nav a {
+
+    display: inline-block;
+    padding: 15px 28px;
+    border-radius: 20px;
+    background-color: #E4FDBA; 
+    border: 3px solid #B4D483;
+    color: #7D171D;
+    font-weight: 600;
+    text-decoration: none;
+
+    transition: 0.2s;
+
+}
+
+.perfil nav a:hover{
+    background-color: #c7ee83;
+
+}
+
+
+.perfil nav li:nth-child(2) a {
+  background-color: #FEE0E2; 
+  border: 3px solid #ffbfcc;
+}
+
+.perfil nav li:nth-child(2) a:hover{
+    background-color: #ffcdd0;
+}
+
+.perfil ul{ 
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+/* =================
+        PERFIL
+   ================= */
+
+   .perfil{
+    padding: 100px 50px;
+   }
+
+   .botones{
+    display: flex;
+    align-items: center;
+   }
+
+
+.perfilCont {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  padding: 50px;
+}
+
+.infoPerfil {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    color: #7D171D;
+}
+
+.infoPerfil h1{
+    margin-bottom: 10px;
+}
+
+.fdp {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  border: 8px solid #FEE0E2;
+  border-radius: 50%;
+  display: block;
+  flex-shrink: 0; 
+}
+
+
+
+.contenedor-header {
+
+    z-index: 2;
+
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1019 / 428;
+    
+    background-image: url(./img/overde.png), url(./img/e2.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top, top right; 
+    background-size: 100% auto, 100% 100% ;
+
+    box-sizing: border-box;
+    
+    background-color: transparent;
+
+    
+  
+}
+
+ 
+
+
+
+/**
+=============================
+          INFO 1
+=============================
+**/
+
+.fondo1 {
+
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1019 / 911;
+
+    background-image: url(./img/punteado.png);
+    background-repeat: no-repeat;
+    background-size: 100% 93%;
+    background-position: top left;
+
+    box-sizing: border-box;
+
+
+}
+
+
+.fondo2{
+
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1019 / 911;
+
+    background-image: url(./img/rayadp.png);
+    background-repeat: no-repeat;
+    background-size: 100% 93%;
+    background-position: top left;
+
+    box-sizing: border-box;
+
+}
+
+.fondoInformacion {
+  position: relative;
+  z-index: 1;
+  margin-top: -45px;
+
+}
+
+
+.infoCont{
+    display: flex;
+    align-items: center;
+    gap: 0px;
+
+    padding: 0px 80px;
+}
+
+.infoTexto{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+
+    position: relative;
+    width: 503px;
+    aspect-ratio: 503 / 504;
+
+    margin: 60px auto;
+    border-radius: 10px;
+
+    overflow: visible;
+
+
+    background-image: url(./img/note2.png);
+    background-repeat: no-repeat;
+    /*background-position: -385px -278px; */
+    background-size: 100% 100%;
+
+    padding: 40px 40px;
+    box-sizing: border-box;
+
+    
+
+}
+
+
+.infoTexto2{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+
+    position: relative;
+    width: 503px;
+    aspect-ratio: 503 / 504;
+
+    margin: 190px auto;
+    border-radius: 10px;
+
+    overflow: visible;
+
+
+    background-image: url(./img/note3.png);
+    background-repeat: no-repeat;
+    /*background-position: -385px -278px; */
+    background-size: 100% 100%;
+
+    padding: 40px 40px;
+    box-sizing: border-box;
+
+    
+
+}
+
+
+.acortado{
+
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+
+    
+
+}
+
+.fisico{
+
+    width: 40%;
+    height: auto;
+
+
+}
+
+
+/**
+==============================
+           FOOTER
+==============================
+**/
+
+.fondoFooter {
+
+
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    aspect-ratio: 1019 / 203;
+
+
+    background-image: url(./img/footer2.png);
+    background-repeat: no-repeat;
+
+    background-size: 100% 100%;
+    background-position: top left;
+
+    box-sizing: border-box;
+
+    margin-top: -165px;
+
+
+    background-color: transparent;
+}
+
+.footerTexto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 4px;
+
+    
+
+    padding-top: 135px;
+}
